@@ -1,0 +1,1 @@
+{"name":"Local: bai6_maxMinElement","url":"d:\\CTDL&GT 28tech\\vector&pair\\bai6_maxMinElement.cpp","tests":[{"id":1706067169678,"input":"10\n2 2 2 7 6 6 6 9 5 7","output":"2\n9\n52"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CTDL&GT 28tech\\vector&pair\\bai6_maxMinElement.cpp","group":"local","local":true}

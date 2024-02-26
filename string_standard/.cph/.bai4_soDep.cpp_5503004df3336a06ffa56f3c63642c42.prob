@@ -1,0 +1,1 @@
+{"name":"Local: bai4_soDep","url":"d:\\CTDL&GT 28tech\\string_standard\\bai4_soDep.cpp","tests":[{"id":1706178208002,"input":"244","output":"NO"},{"id":1706178216114,"input":"10","output":"YES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CTDL&GT 28tech\\string_standard\\bai4_soDep.cpp","group":"local","local":true}
