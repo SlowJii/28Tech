@@ -1,25 +1,25 @@
+/*
+Tim ky tu lap lai dau tien bang Mang Danh Dau
+*/
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+int arr[256];
 // main
 int main(int argc, char const *argv[])
 {
-/*code*/
+/*code*/ 
 string s;
 cin>>s;
-map<char,int> mp;
-for(auto x : s)
+for(char c : s)
 {
-    mp[x]++;
-}
-for(auto x : s)
-{
-    if (mp[x] > 1)
+    if (arr[c])
     {
-        cout<<x;
-        break;
+        cout<<c;
+        return 0;
     }
-    else    cout<<"NONE";
+    arr[c] = 1;
 }
+cout<<"NONE";
 return 0;
 }
