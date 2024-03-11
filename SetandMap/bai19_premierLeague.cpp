@@ -1,3 +1,33 @@
+/*
+Cho thông tin các trận đấu của giải bóng đá Sunday League, nhiệm vụ của bạn là đối với mỗi đội bóng hãy liệt kê các đối thủ đã từng chạm trán. Danh sách các đội bóng được liệt kê theo thứ tự từ điển tăng dần và danh sách đối thủ của từng đội bóng cũng được liệt kê tăng dần theo thứ tự từ điển.
+------Input:
+13
+Arsenal - Lyon
+Fullham - Liverpool
+Fullham - Chelsea
+Barcelona - Chelsea
+Barcelona - Fullham
+Lyon - Barcelona
+Chelsea - AC Milan
+PSG - Manchester City
+Arsenal - Fullham
+Fullham - Arsenal
+Real Madrid - Barcelona
+Arsenal - Manchester City
+Manchester United - Liverpool
+-----Output:
+AC Milan : Chelsea
+Arsenal : Fullham, Fullham, Lyon, Manchester City
+Barcelona : Chelsea, Fullham, Lyon, Real Madrid
+Chelsea : AC Milan, Barcelona, Fullham
+Fullham : Arsenal, Arsenal, Barcelona, Chelsea, Liverpool
+Liverpool : Fullham, Manchester United
+Lyon : Arsenal, Barcelona
+Manchester City : Arsenal, PSG
+Manchester United : Liverpool
+PSG : Manchester City
+Real Madrid : Barcelona
+*/
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
