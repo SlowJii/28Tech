@@ -1,3 +1,9 @@
+/*
+Cho một xâu kí tự S chỉ bao gồm các kí tự từ a tới z. Bạn được yêu cầu thực hiện các nhiệm vụ sau bằng CTDL phù hợp. - 1. Tìm kí tự có tần suất xuất hiện nhiều nhất và có thứ tự từ điển nhỏ nhất.
+
+Tìm kí tự có tần suất xuất hiện nhỏ nhất và có thứ tự từ điển lớn nhất.
+Tìm số lượng kí tự khác nhau trong xâu.
+*/
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
